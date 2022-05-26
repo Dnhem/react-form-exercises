@@ -1,0 +1,10 @@
+.Box-container {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
+.Box-button {
+  width: 30px;
+  height: 30px;
+}
