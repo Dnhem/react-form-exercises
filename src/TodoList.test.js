@@ -13,7 +13,7 @@ it("matches snapshot", () => {
 });
 
 it("should add new todo", () => {
-  const { getByLabelText, fireEvent, queryByText } = render(<TodoList />);
+  const { getByLabelText, queryByText } = render(<TodoList />);
   const input = getByLabelText("Enter new todo:");
   const btn = queryByText("Add");
   expect(queryByText("Cook Burgers")).not.toBeInTheDocument();
